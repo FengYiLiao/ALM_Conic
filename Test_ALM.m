@@ -3,6 +3,8 @@ yalmip('clear')
 %ALM for Maxcut
 %Package requirement: Yalmip and Mosek
 
+addpath("Packages\");
+
 datapath = '';
 savepath = 'results/';
 name     = {'n20r5MC'};

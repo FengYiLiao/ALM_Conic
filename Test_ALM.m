@@ -4,10 +4,11 @@ yalmip('clear')
 %Package requirement: Yalmip and Mosek
 
 addpath("Packages\");
+addpath("Examples\")
 
 datapath = '';
 savepath = 'results/';
-name     = {'n20r5MC'};
+name     = {'n20r5MC'}; %G1_n20 %BQP_22
 idx        = 1;
 
 

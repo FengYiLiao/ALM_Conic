@@ -1,7 +1,5 @@
 function [IndSym,IndDiag,IndOffDiag,ShrinkIndDiag,ShrinkIndOffDiag,IndOffDiagCounter] = SymmetricIndices(n,ShrinkOrNot)
     %This generates some indices a symmetric matrix
-    %Authors: Feng-Yi Liao & Yang Zheng
-    %         SOC Lab @UC San Diego
     %[Input]  n: dimension of a matrix
     %         ShrinkOrNot: True or false. (If true, the function will also compute the indices after shrinking. Please set it to be "false" for efficiency)
     %
